@@ -1,4 +1,4 @@
-<h1>Creating Domain Controller Server</h1>
+<h1>Creating Domain Controller with Windows Server 2019 in Virtualbox</h1>
 
 <h2>Create a Virtual Machine</h2>
 I created a new VM and used following configuration:<br />
