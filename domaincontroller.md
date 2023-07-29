@@ -52,5 +52,5 @@ After changing the names, I assign an IP address to the "INTERNAL" network. To d
 4. For the DNS server address, I enter the loopback address:<br />
    <b>Preferred DNS server:</b> "127.0.0.1"<br />
 I press OK to save the configuration.<br />
-<img src="https://i.imgur.com/ktlfOR5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br />
-<img src="https://i.imgur.com/K9mDrqe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br /><br />
+<img src="https://i.imgur.com/WMKVvrk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br />
+<img src="https://i.imgur.com/46heXyg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br /><br />
