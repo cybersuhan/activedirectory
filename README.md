@@ -18,7 +18,7 @@ In this lab, I create an Active Directory in a virtual environment using Virtual
 Before starting the project, I downloaded Windows Server 2019 and Windows 10 iso files. I also had Virtualbox 7.0 installed in my computer.  
 
 <h2>Walk-through:</h2>
-<p>The following are the steps I took chronologically to complete this lab project:
+<p>The following are the steps I took chronologically to complete this lab project with direct links:
 <ol>
  <li><a href="https://github.com/cybersuhan/activedirectory/blob/main/domaincontroller.md">Create a Windows Server Domain Controller in Virtual Box </a></li>
  <li><a href="https://github.com/cybersuhan/activedirectory/blob/main/creatingDomain.md">Create a Domain within the Domain Controller</a></li>
