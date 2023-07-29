@@ -16,11 +16,12 @@ In this lab, I create an Active Directory in a virtual environment using Virtual
 
 <h2>Before Starting</h2>
 Before starting the project, I downloaded Windows Server 2019 and Windows 10 iso files. I also had Virtualbox 7.0 installed in my computer.  
+
 <h2>Walk-through:</h2>
 
-
-<h3>Windows Server 2019</h3>
-
+1. Creating a Domain Controller Server in VirtualBox
+2. Creating a Domain
+3. Installing RAS/NAT in Domain Controller
 
 
 
