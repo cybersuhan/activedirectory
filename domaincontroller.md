@@ -34,4 +34,23 @@ I start the DC VM in virtualbox. I take the following Steps:<br /><br />
 <img src="https://i.imgur.com/IAYYZwy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br />
 <img src="https://i.imgur.com/ZnwZ1YB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br /><br />
 
-After Installation, I login to the Server using the password that I created earlier. I rename the PC to "DC".
+<b>After Installation, I login to the Server using the password that I created earlier. I rename the PC to "DC".</b>
+
+<h4>Set Up Network Names</h4>
+As I configured before, the Windows server VM has 2 network adapters connected to it. When I go to the Network Adapter settings, I can see both of the network adapters. <br />
+<img src="https://i.imgur.com/YjNfYul.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br /><br />
+I find the one that is connected to the internet. This is the NAT network. I change the name of the adapter to ```INTERNET```.<br />
+The other adapter is meant to be the Internal Network Adapter. I change it's name to ```INTERNAL```.<br />
+<img src="https://i.imgur.com/up9smQ4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br /><br />
+
+After changing the names, I assign an IP address to the "INTERNAL" network. To do that, I take the following steps:<br />
+1. Right-Click the "Internal" Adapter and click "Properties"<br />
+2. Double-Click on IPv4 (Internet Protocol Version 4 TCP/IPV4)<br />
+3. Turn on "Use the following IP adress:"<br />
+   a. <b>IP address:</b> "172.16.0.1"<br />
+   b. <b>Subnet mask:</b> "255.255.255.0"<br />
+4. For the DNS server address, I input the loopback address:<br />
+   <b>Preferred DNS server:</b> "127.0.0.1"<br />
+I press OK to save the configuration.<br />
+<img src="https://i.imgur.com/ktlfOR5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br />
+<img src="https://i.imgur.com/K9mDrqe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br /><br />
