@@ -25,7 +25,7 @@ Before starting the project, I downloaded Windows Server 2019 and Windows 10 iso
  <li><a href="https://github.com/cybersuhan/activedirectory/blob/main/RAS_NAT_installation.md">Configure RAT / NAS in the Domain Controller</a></li>
  <li><a href="https://github.com/cybersuhan/activedirectory/blob/main/DHCP_setup.md">Set up a DHCP Server in the Domain Controller</a></li>
  <li><a href="https://github.com/cybersuhan/activedirectory/blob/main/AddUsers.md">Add multiple dummy users in the Active Directory using Powershell</a></li>
- <li><a href="#"></a>Create a Windows 10 Client</li>
+ <li><a href="#">Create a Windows 10 Client</a></li>
  <li><a href="#">Configure Client Windows to use the previously created domain</a></li>
 
 </ol>
