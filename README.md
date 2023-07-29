@@ -21,10 +21,10 @@ Before starting the project, I downloaded Windows Server 2019 and Windows 10 iso
 <p>The following are the steps I took chronologically to complete this lab project:
 <ol>
  <li><a href="#">Create a Windows Server Domain Controller in Virtual Box </a></li>
- <li><a href="#"></a>Create a Domain within the Domain Controller</li>
- <li><a href="#"></a>Configure RAT / NAS in the Domain Controller</li>
- <li><a href="#"></a>Set up a DHCP Server in the Domain Controller</li>
- <li><a href="#"></a>Add multiple dummy users in the Active Directory using Powershell</li>
+ <li><a href="#">Create a Domain within the Domain Controller</a></li>
+ <li><a href="#">Configure RAT / NAS in the Domain Controller</a></li>
+ <li><a href="#">Set up a DHCP Server in the Domain Controller</a></li>
+ <li><a href="#">Add multiple dummy users in the Active Directory using Powershell</a></li>
  <li><a href="#"></a></li>
  <li><a href="#"></a></li>
  <li><a href="#"></a></li>
