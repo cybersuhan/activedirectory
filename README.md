@@ -18,11 +18,19 @@ In this lab, I create an Active Directory in a virtual environment using Virtual
 Before starting the project, I downloaded Windows Server 2019 and Windows 10 iso files. I also had Virtualbox 7.0 installed in my computer.  
 
 <h2>Walk-through:</h2>
-
-1. Creating a Domain Controller Server in VirtualBox
-2. Creating a Domain
-3. Installing RAS/NAT in Domain Controller
-
+<p>The following are the steps I took chronologically to complete this lab project:
+<ol>
+ <li><a href="#">Create a Windows Server Domain Controller in Virtual Box </a></li>
+ <li><a href="#"></a>Create a Domain within the Domain Controller</li>
+ <li><a href="#"></a>Configure RAT / NAS in the Domain Controller</li>
+ <li><a href="#"></a>Set up a DHCP Server in the Domain Controller</li>
+ <li><a href="#"></a>Add multiple dummy users in the Active Directory using Powershell</li>
+ <li><a href="#"></a></li>
+ <li><a href="#"></a></li>
+ <li><a href="#"></a></li>
+ 
+</ol>
+</p>
 
 
 
