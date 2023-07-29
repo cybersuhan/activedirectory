@@ -83,7 +83,25 @@ This line creates a new Active Directory user using the New-AdUser cmdlet. It se
   <li><code>-PasswordNeverExpires $true</code>: Ensures that the user's password never expires.</li>
   <li><code>-Path "ou=_USERS,$(([ADSI]"").distinguishedName)"</code>: Specifies the OU where the user will be created. It uses the previously created "_USERS" OU.</li>
   <li><code>-Enabled $true</code>: Enables the user account.</li>
-  
-  
 </ul>
 </p>
+
+<h2>Running The Script</h2>
+<p>I copy the AD_PowershellScript folder to Domain Controller and open the AddUsers.ps1 in Windows PowerShell ISE. I logged in to the a-suhanb account that I created in the previously. 
+</p>
+<p>Before running the script, I need to change the directory in PowerShell ISE to desktop, as the AD_PowerShell folder is in the Desktop of this account. <br />
+ <img src="https://i.imgur.com/lYjqZQa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br />
+</p>
+<p>I press the "Play" button to run the script:<br />
+  <img src="https://i.imgur.com/oxt1pyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br />
+
+</p>
+<p>After running the script, the users are created with the specified password:<br />
+  <img src="https://i.imgur.com/sN9w7Qq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br />
+</p>
+
+<p>The Domain now has a new Organizational Unit called _USERS and 50 users are also created:<br />
+  <img src="https://i.imgur.com/q7Ud6Ie.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br />
+</p>
+
+<p><b>At this point, I have 50 standard users and 1 administrator account in my Active Directory. </b></p>
