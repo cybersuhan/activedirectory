@@ -36,7 +36,7 @@ I start the DC VM in virtualbox. I take the following Steps:<br /><br />
 
 <b>After Installation, I login to the Server using the password that I created earlier. I rename the PC to "DC".</b>
 
-<h4>Set Up Network Names</h4>
+<h2>Set Up Network Names</h2>
 As I configured before, the Windows server VM has 2 network adapters connected to it. When I go to the Network Adapter settings, I can see both of the network adapters. <br />
 <img src="https://i.imgur.com/YjNfYul.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br /><br />
 I find the one that is connected to the internet. This is the NAT network. I change the name of the adapter to ```INTERNET```.<br />
