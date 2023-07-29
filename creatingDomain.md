@@ -28,3 +28,5 @@ After Installation, The VM restarts automatically. <br />
 
 After the VM restarts, The Domain Name is shown before the Account Name:<br />
 <img src="https://i.imgur.com/FWsZFf4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br /><br />
+
+<b>At this point, the domain is created and I can login to the domain.</b>
