@@ -30,6 +30,8 @@ Before starting the project, I downloaded Windows Server 2019 and Windows 10 iso
 </ol>
 </p>
 
+<h2>Oracle VirtualBox Appliance</h2>
+<p>The VirtualBox Appliance for both, Domain Controller and Client1, are available for download with this repository. Please check the folder <b>Appliances</b></p>
 
 
 
