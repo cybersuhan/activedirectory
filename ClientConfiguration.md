@@ -11,7 +11,7 @@
   <li>Click on <b>Domain</b> under the <i>Member of</i> section</li>
   <li>I enter the domain as <code>suhancyberlab</code></li>
   <li>Enter a username and password listed in the Active Directory. I used <code>a-suhanb</code> that I created earlier</li>
-  <li>After successful logon, A notification pops up confirming the login</li>
+  <li>After successful logon, a notification pops up confirming the login</li>
 </ol>
 
   <img src="https://i.imgur.com/H0CxSnx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br />
