@@ -10,7 +10,7 @@
   <li>I rename the Computer to <b>CLIENT1</b>, according to the network map</li>
   <li>Click on <b>Domain</b> under the <i>Member of</i> section</li>
   <li>I enter the domain as <code>suhancyberlab</code></li>
-  <li>Enter a username and password listed in the Active Directory. I used <b>a-suhanb</b> that I created earlier</li>
+  <li>Enter a username and password listed in the Active Directory. I used <code>a-suhanb</code> that I created earlier</li>
   <li>After successful logon, A notification pops up confirming the login</li>
 </ol>
 
